@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: seashell;
+  }
+  
+  body{
+    min-height: 100vh;
+    font-family: Helvetic;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+  }
+  
+  /* header and navbar */
+  .header {
+    position: fixed;
+    top: 0;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .header-nav{
+    width: 100%;
+    position: relative;
+    top: 30%;
+    padding: 0 10px;
+  }
+
+  .header .header-nav .logo-container{
+    position: relative;
+    float: left;
+    height: 100%;
+    top: -10px;
+  }
+  
+  .header .header-nav .logo{
+    height: 50px;
+  }
+  
+  .header .header-nav .navbar a{
+    float: right;
+    margin-left: 20px;
+    color: seashell;
+    text-decoration: underline;
+  }
+  
+  /* hero section */
+  .hero {
+    position: relative;
+    /* top: 69px; */
+    height: 700px; 
+    width: 1200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .hero-img{ 
+    position: absolute;
+    z-index: -100;
+  }
+  
+  .hero-img img{
+    align-self: center;
+  }
+  
+  .hero-title{
+    background-color: #000;
+    width: 100%;
+    padding: 20px 0; 
+    align-content: center;
+  }
+  
+  .hero-title h2{
+    padding-bottom: 10px;
+    font-size: 40px;
+  }
+  
+  .back-img{
+    justify-content: center;
+    z-index: -1;
+  }
+  
+  .card{
+    position: relative;
+    top: 100px;
+    width: 1000px;
+    margin: auto;;
+  }
+
+  .card h1, h3{
+    padding-bottom: 20px;
+  }
+
+  .card-image{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .img img{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+  }
+
+  .img h3{
+    padding-bottom: 10px;
+  }
+
+  .location{
+    position: relative;
+    top: 200px;
+    height: 500px; 
+    width: 1200px;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    background: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .location .location-title{
+    padding-bottom: 15px 0 ;
+  }
+
+  .location .location-title h1{
+    padding-bottom: 15px;
+  }
+
+  .location .location-box{
+    display: flex;
+    /* flex-direction: row; */
+
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 1100px;
+
+  }
+
+  .location .location-box .box{
+    width: 300px;
+    height: 260px;
+    background-color: #000;
+    margin: 0 24px;
+    opacity: .9;
+    border-radius: 4px;
+  }
+
+  .location .location-box .box h3{
+    padding: 24px 0;
+    color: seashell;
+  }
+
+  .location .location-box .box h4{
+    line-height: 3.5rem;
+  }
+
+  .contact{
+    position: relative;
+    top: 200px;
+    height: 200px;
+    line-height: 70px;
+  }
+
+  .footer{
+    position: relative;
+    bottom: -200px;
+    padding: 24px 0;
+  }
+
+  .footer h5{
+    text-align: left;
+    padding-left: 20px;
+  }
